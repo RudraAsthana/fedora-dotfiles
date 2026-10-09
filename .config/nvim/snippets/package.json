@@ -1,0 +1,18 @@
+{
+  "contributes": {
+    "snippets": [
+      {
+        "language": "tex",
+        "path": "./tex.json"
+      },
+      {
+        "language": "latex",
+        "path": "./tex.json"
+      },
+      {
+        "language": "plaintex",
+        "path": "./tex.json"
+      }
+    ]
+  }
+}

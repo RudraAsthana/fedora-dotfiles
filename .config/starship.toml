@@ -1,0 +1,19 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Make prompt a single line instead of two lines
+[line_break]
+disabled = true
+
+# Replace the default symbol with the Nerd Font ghost and weighted arrow
+[character]
+success_symbol = "[󰊠 ➜](bold green)" 
+error_symbol = "[󰊠 ➜](bold red)"
+
+# disable the battery indicator
+[battery]
+disabled = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true

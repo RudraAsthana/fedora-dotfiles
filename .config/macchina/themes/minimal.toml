@@ -1,0 +1,13 @@
+# Use a smaller, compact version of the Fedora logo
+prefer_small_ascii = true
+
+# Change to 'true' if you want to hide the Fedora logo entirely
+hide_ascii = true 
+
+# Hide the color palette blocks at the bottom
+[palette]
+visible = false
+
+# Disable any border boxes around the text
+[box]
+visible = true

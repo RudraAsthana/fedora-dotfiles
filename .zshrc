@@ -78,3 +78,7 @@ macchina
 
 # DotFile Aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+export PATH="$(ruby -e "print Gem.user_dir")/bin:$PATH"
+
+# System Update Aliase
+alias sysu='sudo dnf upgrade --refresh'
